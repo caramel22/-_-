@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>what to do today</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="title">
+        <h1>Tasks to Do Today</h1>
+    </div>
+    <div class="box1">
+        <form  id="taskForm">
+            <div class="form-group">
+                <label for="taskInput">Task</label>
+                <input type="text" id="taskInput" placeholder="Task to do" required   >
+            </div>
+            <div class="form-group">
+                <label for="descriptionInput">Description</label>
+               <!--  <input type="text" name="new-task-input" id="new-task-input">-->
+                <textarea  placeholder="Description" id="descriptionInput" id="des"></textarea>
+            </div>
+           <div class="form-group">
+           <button type="submit">Add Task</button>
+            </div>
+        </form>
+    </div>
+    <div class="box2">
+        <table id="taskTable">
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Description</th>
+                    <th>Edit</th>
+                   <!-- <th>Delete</th> -->
+                </tr>
+            </thead>
+            <tbody id="taskList">
+                <!-- Tasks will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+    
+	<script src="main.js"></script>
+</body>
+</html>
