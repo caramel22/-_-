@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.container {
+  max-width: 400px;
+  margin-top: 150px;
+  margin-left: 450px;
+  padding: 80px;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+button {
+  width: 30%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 130px;
+}
+.home-page {
+  display: none;
+}
